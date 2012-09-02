@@ -155,11 +155,9 @@ namespace Lab1.Model
                     result = "\n" + string.Join("\n", _Repo.GetUsers().Where(u => u.Type == User.UserType.Admin).Select(User => User.FullName).Take(10));
                     break;
              
-                case "lala":
-                    result = string.Join("\n", _Repo.GetPosts()
-                                                .Where(p => p.Tags.Equals(Post.PostTags.Troll))
-                                                .Select(p => p.Body)
-                                                .Take(1));
+                case "listlatesttroll":
+                    result = string.Join("\n", _Repo.GetPosts().Where(p => p.Tags.Equals(Post.PostTags.Troll)).Select(p => p.Body).Take(1));
+                    //fungerar ej. hittar alla poster men har gjort något fel i where delen så hittar ingenting.
                     break;
 
                 case "login admin":
