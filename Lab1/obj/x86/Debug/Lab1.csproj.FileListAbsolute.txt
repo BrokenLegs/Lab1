@@ -1,0 +1,5 @@
+C:\Users\Eminaalic\Documents\GitHub\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Users\Eminaalic\Documents\GitHub\Lab1\Lab1\bin\Debug\Lab1.pdb
+C:\Users\Eminaalic\Documents\GitHub\Lab1\Lab1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Eminaalic\Documents\GitHub\Lab1\Lab1\obj\x86\Debug\Lab1.exe
+C:\Users\Eminaalic\Documents\GitHub\Lab1\Lab1\obj\x86\Debug\Lab1.pdb

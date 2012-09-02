@@ -10,6 +10,13 @@ namespace Lab1.Helpers
     /// </summary>
     public class OutputHelper
     {
+
+        public static void Put(String str) 
+        {
+            Console.WriteLine(str);
+        }
+
+
         /// <summary>
         /// Property som innehåller en textsträng som berättar vilka kommandon som finns tillgängliga
         /// då användaren startat programmet.
@@ -20,6 +27,12 @@ namespace Lab1.Helpers
                 string returnString = "\n\nList of Commands:";
                 returnString += "\n\t?/help:\tPrints this list of commands.";
                 returnString += "\n\texit:\tExits the program.";
+                returnString += "\n\tlog:\tShows up to ten of your last inputs.";
+                returnString += "\n\tlist:\tDisplays 10 Users";
+                returnString += "\n\tlistsorted:\tDisplays the first 10 Users starting from A - Z";
+                returnString += "\n\tinterface:\tA brief explanation of what an interface is and how to use it";
+                returnString += "\n\tlogin admin:\tSimulates a login event";
+                returnString += "\n\tlogout:\tSimulates a logout event";
 
                 return returnString;
             }
@@ -72,7 +85,7 @@ namespace Lab1.Helpers
         /// <summary>
         /// Property som innehåller ett välkomstmeddelande
         /// </summary>
-        private static string GreetingMessage
+        public static string GreetingMessage
         {
             get
             {

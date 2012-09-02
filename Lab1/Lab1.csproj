@@ -46,9 +46,10 @@
     <Compile Include="Helpers\InputHelper.cs" />
     <Compile Include="Helpers\OutputHelper.cs" />
     <Compile Include="Model\InputParser.cs" />
+    <Compile Include="Helpers\Logger.cs" />
     <Compile Include="Model\Post.cs" />
     <Compile Include="Model\Repository\Abstract\IRepository.cs" />
-    <Compile Include="Model\Repository\Repository.cs" />
+    <Compile Include="Model\Repository\Abstract\Repository.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
