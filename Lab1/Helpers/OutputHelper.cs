@@ -33,6 +33,7 @@ namespace Lab1.Helpers
                 returnString += "\n\tinterface:\tA brief explanation of what an interface is and how to use it";
                 returnString += "\n\tlogin admin:\tSimulates a login event";
                 returnString += "\n\tlogout:\tSimulates a logout event";
+                returnString += "\n\tlistlatesttroll:\tdoesnt work but was supposed to list the last post with the tag troll";
 
                 return returnString;
             }
